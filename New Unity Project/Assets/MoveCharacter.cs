@@ -25,7 +25,7 @@ public class MoveCharacter : MonoBehaviour
         //if (Input.GetKey("s"))
         //{
         //    pos.y -= speed * Time.deltaTime;
-        //} 
+        //} /
 
         if (Input.GetKey("d"))
         {
