@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//testing gitignore log
+
 public class MoveCharacter : MonoBehaviour
 {
 
@@ -39,7 +41,7 @@ public class MoveCharacter : MonoBehaviour
         {
             pos.y += speed * Time.deltaTime;
         }
-
+        
         transform.position = pos;
     }
 }
