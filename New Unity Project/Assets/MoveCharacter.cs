@@ -6,8 +6,14 @@ using UnityEngine;
 
 public class MoveCharacter : MonoBehaviour
 {
+ 
+    public Sprite foxRun;
+    public Sprite foxRunBack;
+    public Sprite foxIdle;
+    public Sprite foxJump;
 
     public float speed = 10.0f;
+    public float jumpSpeed = 10.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,28 +26,46 @@ public class MoveCharacter : MonoBehaviour
     {
         Vector3 pos = transform.position;
         
-        //if(Input.GetKey("w"))
-        //{
-        //    pos.y += speed * Time.deltaTime;
-        //}
-        //if (Input.GetKey("s"))
-        //{
-        //    pos.y -= speed * Time.deltaTime;
-        //} /
 
+        //when key is pressed
         if (Input.GetKey("d"))
         {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = foxRun;
+
             pos.x += speed * Time.deltaTime;
         }
         if (Input.GetKey("a"))
         {
             pos.x -= speed * Time.deltaTime;
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = foxRunBack;
+
         }
-        if (Input.GetKey("space"))
+        if (Input.GetKey(KeyCode.Space) )
         {
-            pos.y += speed * Time.deltaTime;
+            pos.y += jumpSpeed * Time.deltaTime;
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = foxJump;
         }
-        
+
+        //when key is released
+        if (Input.GetKeyUp("d"))
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = foxIdle;
+        }
+        if (Input.GetKeyUp("a"))
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = foxIdle;
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = foxIdle;
+        }
+
         transform.position = pos;
     }
+
+    private void onTriggerEnter2D(Collider2D collider)
+    {
+        Debug.Log("hit");
+    }
+
 }
