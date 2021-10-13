@@ -43,12 +43,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: backround
+    uniqueID: 1670682379
+    locked: 0
+  - name: obstacle
+    uniqueID: 3432033305
+    locked: 0
   - name: user
     uniqueID: 2634686663
     locked: 0
   - name: player
     uniqueID: 4081495793
-    locked: 0
-  - name: backround
-    uniqueID: 1670682379
     locked: 0
