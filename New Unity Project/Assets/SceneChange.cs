@@ -13,8 +13,8 @@ public class SceneChange : MonoBehaviour
     //{
     //    SceneManager.LoadScene("Scene2");
     //}
-    //public void Scene3()
-    //{
-    //    SceneManager.LoadScene("Scene3");
-    //}
+    public void quitGame()
+    {
+        Application.Quit();
+    }
 }
