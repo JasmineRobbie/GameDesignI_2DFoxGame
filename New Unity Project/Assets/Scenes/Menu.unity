@@ -655,7 +655,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1487844787}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2090777741}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: mainScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1487844787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +875,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1635689455}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2090777741}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: quitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1635689455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,6 +1293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090777739}
   - component: {fileID: 2090777740}
+  - component: {fileID: 2090777741}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -1308,5 +1333,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c78809697835bf49a1a8e883f1f520f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2090777741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090777738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01169da5c66e68743837854932c5b487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
