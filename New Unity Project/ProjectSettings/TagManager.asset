@@ -9,6 +9,7 @@ TagManager:
   - Grass
   - spikes
   - spikeCollider
+  - Platform
   layers:
   - Default
   - TransparentFX
