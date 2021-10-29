@@ -68,4 +68,12 @@ public class MoveCharacter : MonoBehaviour
         Debug.Log("hit");
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            this.gameObject.transform.parent = null;
+        }
+    }
+
 }
