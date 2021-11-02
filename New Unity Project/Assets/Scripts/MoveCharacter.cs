@@ -25,19 +25,29 @@ public class MoveCharacter : MonoBehaviour
     void Update()
     {
         Vector3 pos = transform.position;
-        
+        Vector3 characterPosition = transform.localScale;
+
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            characterPosition.x = -10;
+        }
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            characterPosition.x = 10;
+        }
+        transform.localScale = characterPosition;
 
         //when key is pressed
         if (Input.GetKey("d"))
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = foxRun;
-
             pos.x += speed * Time.deltaTime;
         }
         if (Input.GetKey("a"))
         {
             pos.x -= speed * Time.deltaTime;
             this.gameObject.GetComponent<SpriteRenderer>().sprite = foxRunBack;
+            //this.gameObject.GetComponent<SpriteRenderer>().flipX = foxRunBack;
 
         }
         if (Input.GetKey(KeyCode.Space) )
