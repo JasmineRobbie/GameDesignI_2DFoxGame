@@ -10,6 +10,7 @@ TagManager:
   - spikes
   - spikeCollider
   - Platform
+  - turn
   layers:
   - Default
   - TransparentFX
