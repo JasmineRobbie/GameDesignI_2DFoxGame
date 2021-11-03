@@ -20,6 +20,10 @@ public class SceneChange : MonoBehaviour
         {
             SceneManager.LoadScene("Evening");
         }
+        if (other.transform.tag == "motherEvening")
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 
     public void quitGame()
