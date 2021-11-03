@@ -15,11 +15,11 @@ public class circlePlatform : MonoBehaviour
         posX = rotationCenter.position.x + Mathf.Cos(angle) * rotationRadius;
         posY = rotationCenter.position.y + Mathf.Sin(angle) * rotationRadius;
         transform.position = new Vector2(posX, posY);
-        angle = angle + Time.deltaTime * angularSpeed;
+        angle = angle - Time.deltaTime * angularSpeed;
 
-        if (angle >= 360f)
+        if (angle == 0f)
         {
-            angle = 0f;
+            angle = 360f;
         }
 
     }
