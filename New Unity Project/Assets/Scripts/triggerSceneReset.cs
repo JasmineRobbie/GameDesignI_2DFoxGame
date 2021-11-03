@@ -16,7 +16,7 @@ public class triggerSceneReset : MonoBehaviour
     {
         if (other.transform.tag == "spikes")
         {
-            SceneManager.LoadScene("Morning");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
