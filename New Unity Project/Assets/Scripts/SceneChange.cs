@@ -7,7 +7,7 @@ public class SceneChange : MonoBehaviour
 {
     public void mainScene()
     {
-        SceneManager.LoadScene("mainScene");
+        SceneManager.LoadScene("Morning");
     }
     //public void Scene2()
     //{
