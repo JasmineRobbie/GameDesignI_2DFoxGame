@@ -9,10 +9,19 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("Morning");
     }
-    //public void Scene2()
-    //{
-    //    SceneManager.LoadScene("Scene2");
-    //}
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.tag == "motherMorning")
+        {
+            SceneManager.LoadScene("Afternoon");
+        }
+        if (other.transform.tag == "motherAfternoon")
+        {
+            SceneManager.LoadScene("Evening");
+        }
+    }
+
     public void quitGame()
     {
         Application.Quit();

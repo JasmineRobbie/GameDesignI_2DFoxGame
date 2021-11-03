@@ -11,6 +11,8 @@ TagManager:
   - spikeCollider
   - Platform
   - turn
+  - motherMorning
+  - motherAfternoon
   layers:
   - Default
   - TransparentFX
