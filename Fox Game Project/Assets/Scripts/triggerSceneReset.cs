@@ -5,12 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class triggerSceneReset : MonoBehaviour
 {
-    //private void restartScene()
-    //{
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    //}
-
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,12 +12,10 @@ public class triggerSceneReset : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        if (other.transform.tag == "checkPoint")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
-    //private void OnTriggerExit2D(Collider2D other)
-    //{
-    //    if (other.transform.tag == "Platform")
-    //    {
-    //    }
-    //}
 }
