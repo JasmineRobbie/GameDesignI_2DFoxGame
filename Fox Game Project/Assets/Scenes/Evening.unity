@@ -441,8 +441,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 86afbf04432b34e1883a20f99f007881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1468,8 +1468,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 86afbf04432b34e1883a20f99f007881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3685,8 +3685,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 86afbf04432b34e1883a20f99f007881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3950,8 +3950,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2edda0abf73e2c74594b732c494e275f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4080,8 +4080,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 86afbf04432b34e1883a20f99f007881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4253,8 +4253,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6c38dfd7970ac4270aa8ba1f5d845cd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5362,8 +5362,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6c38dfd7970ac4270aa8ba1f5d845cd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6637,10 +6637,10 @@ GameObject:
   - component: {fileID: 1115113686}
   - component: {fileID: 1115113685}
   - component: {fileID: 1115113684}
-  - component: {fileID: 1115113693}
   - component: {fileID: 1115113692}
-  - component: {fileID: 1115113690}
+  - component: {fileID: 1115113693}
   - component: {fileID: 1115113691}
+  - component: {fileID: 1115113690}
   m_Layer: 13
   m_Name: Fox
   m_TagString: Player
@@ -9353,8 +9353,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b44ad350aab99416da042ed03d420869, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9846,8 +9846,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: baa0c643131554ff99574059ec7da1cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10347,8 +10347,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -862933991
-  m_SortingLayer: 2
+  m_SortingLayerID: -213471503
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2edda0abf73e2c74594b732c494e275f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
