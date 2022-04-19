@@ -14,13 +14,13 @@ public class SceneChange : MonoBehaviour
     {
         if (other.transform.tag == "motherMorning")
         {
-            SceneManager.LoadScene("Afternoon");
-        }
-        if (other.transform.tag == "motherAfternoon")
-        {
             SceneManager.LoadScene("Evening");
         }
         if (other.transform.tag == "motherEvening")
+        {
+            SceneManager.LoadScene("Afternoon");
+        }
+        if (other.transform.tag == "motherAfternoon")
         {
             SceneManager.LoadScene("Menu");
         }
