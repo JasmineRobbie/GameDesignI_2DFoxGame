@@ -1012,9 +1012,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: One day you (a baby fox) are walking with your mom (Mama Fox). You get
-    distracted by a tree and when you look up yor mom is gone. You now have to navagate
-    through the forest to get back home to your mom.
+  m_text: One day you (a baby fox) are walking with your mom (Mama Fox). You tend
+    to get distracted by the trees. When you look back, you notice that your mom
+    is gone. You now have to navagate through the different forests to reuntie with
+    Mama Fox.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
